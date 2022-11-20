@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Mod3mda0030FallB22" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GhW-Wk-Gx7">
+                                <rect key="frame" x="57" y="94" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ksd-jX-YWJ">
+                                <rect key="frame" x="162.5" y="432.5" width="89" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="War Eagle"/>
+                                <connections>
+                                    <action selector="auburnButtonWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AEZ-nU-vDb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="500" verticalHuggingPriority="500" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3id-Gd-KsK">
+                                <rect key="frame" x="181.5" y="487" width="51" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="SEC"/>
+                                <connections>
+                                    <action selector="secButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m8m-TB-96m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="500" verticalHuggingPriority="500" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Avx-yl-eM3">
+                                <rect key="frame" x="167" y="531" width="80" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Roll Tide"/>
+                                <connections>
+                                    <action selector="alabamaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WNk-Vg-MQ5"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="300" verticalCompressionResistancePriority="300" ambiguous="YES" image="auburn.jpeg" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bNg-ej-FxI">
+                                <rect key="frame" x="57" y="94" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="800" constant="300" id="6qr-uZ-e6O"/>
+                                </constraints>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="6qr-uZ-e6O"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="300" verticalHuggingPriority="300" fixedFrame="YES" image="sec.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k44-PW-jf5">
+                                <rect key="frame" x="57" y="94" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="300" verticalHuggingPriority="300" fixedFrame="YES" image="alabama.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zRc-Nk-zcf">
+                                <rect key="frame" x="57" y="94" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ksd-jX-YWJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LV6-fF-d0C"/>
+                            <constraint firstItem="Ksd-jX-YWJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bqF-NV-PKO"/>
+                            <constraint firstItem="3id-Gd-KsK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="54.5" id="hm0-o0-tKA"/>
+                            <constraint firstItem="3id-Gd-KsK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q7q-jy-iBg"/>
+                            <constraint firstItem="Avx-yl-eM3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u66-aj-yxp"/>
+                            <constraint firstItem="Avx-yl-eM3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="98.5" id="vGc-NS-W1a"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="alabamaButton" destination="Avx-yl-eM3" id="iFp-A2-kFD"/>
+                        <outlet property="alabamaView" destination="zRc-Nk-zcf" id="DCh-1A-7Pg"/>
+                        <outlet property="auburnButton" destination="Ksd-jX-YWJ" id="iVp-Gp-0lA"/>
+                        <outlet property="auburnView" destination="bNg-ej-FxI" id="zN0-Pl-E9e"/>
+                        <outlet property="myImageView" destination="GhW-Wk-Gx7" id="r2e-hT-9Gu"/>
+                        <outlet property="secButton" destination="3id-Gd-KsK" id="qtj-qO-RRM"/>
+                        <outlet property="secView" destination="k44-PW-jf5" id="paU-xj-1xY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="31.884057971014496" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="alabama.png" width="250" height="250"/>
+        <image name="auburn.jpeg" width="500" height="500"/>
+        <image name="sec.png" width="225" height="225"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
