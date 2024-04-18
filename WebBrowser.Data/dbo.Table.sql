@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[History]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [URL] NVARCHAR(MAX) NOT NULL, 
+    [Title] NVARCHAR(MAX) NOT NULL, 
+    [Date] DATETIME NOT NULL
+)
+
