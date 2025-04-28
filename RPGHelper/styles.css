@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: maroon;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    color: deepskyblue;
+    font-size: 24px;
+    font-family: fantasy;
+    font-style: italic;
+}
+
+.section {
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+#environmentForm label {
+    display: block;  
+    margin-bottom: 10px;  
+}
+
+
+#mapContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+#goldDetails p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+}
+
+#generateGoldBtn {
+    background-color: #FFD700;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#generateGoldBtn:hover {
+    background-color: #e5c100;
+}
+
+#strongholdButton {
+    background-color: #808080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#generateItemBtn {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+ #happenBtn {
+    background-color: #C0C0C0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
