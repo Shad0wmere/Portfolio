@@ -1,0 +1,3 @@
+﻿  patternDisplay.cpp
+C:\Users\Matt\source\repos\patternDisplay\patternDisplay.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  patternDisplay.vcxproj -> C:\Users\Matt\source\repos\patternDisplay\x64\Debug\patternDisplay.exe
